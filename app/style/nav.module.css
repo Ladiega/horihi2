@@ -1,0 +1,40 @@
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: black;
+  color: white;
+}
+
+.container_one {
+  display: flex;
+  align-items: center;
+}
+
+.red_dot {
+  background-color: red;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+}
+
+.container_two {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: smaller;
+  font-weight: 300;
+
+}
+
+.container_two li {
+  cursor: pointer;
+}
+
+.container_two li:hover {
+  text-decoration: underline;
+}
