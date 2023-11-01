@@ -22,20 +22,32 @@
   gap: 3rem;
   position: absolute;  
 }
-.icons_container{
-  display: flex;  
-  background-color: green;  
-}
+
 .section2_container{
   padding: .5rem;
   display: flex;
-  align-items: center;
+  justify-content: space-between; 
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
 } 
 .section2_container form{
-  display: flex;
+  display: flex;  
+  align-items: center;
+  gap: .5rem;
   flex-direction: column;
+}
+.section2_container button{
+  width: 4rem;
+  font-weight: 700;
+  background-color: white;
+  text-align: center;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+  
+.section2_container button:hover{
+  background-color: rgba(255, 255, 255, 0.719);
 }
 
 .kanjicontainer{

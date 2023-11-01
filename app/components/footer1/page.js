@@ -5,8 +5,9 @@ import instagram from '../../../public/img/instagram.svg'
 import whatsapp from '../../../public/img/whatsapp.svg'
 import whitekanji from '../../../public/img/whitekanji.svg'
 import footer1 from '../../../public/img/footer.png'
-
+ 
 export default function Footer1() {
+ 
   return (
     <footer className={styles.footer1_container}>
       <div className={styles.img_container}>
