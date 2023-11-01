@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Nav from './components/navbar/page'
 import Section1 from './components/section1/page'
 import Section2 from './components/section2/page'
