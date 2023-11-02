@@ -42,6 +42,8 @@
   border-radius: 0.5rem;
 }
 
+
+
 .section2_container form {
   display: flex;
 
@@ -70,4 +72,14 @@
   padding: 1rem;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width:600px) {
+
+  .section2_container,
+  .section2_container p,
+  .section2_container h2 {
+    background-color: red;
+    font-size: smaller;
+  }
 }
