@@ -1,0 +1,14 @@
+.section2_container {
+  margin: 2rem 2.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section2_gallery_container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: coral;
+}
