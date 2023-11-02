@@ -1,4 +1,19 @@
 .footer2_container {
+  margin-top: -.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
   color: white;
+}
+
+.footer2_container p {
+  font-size: smaller;
+  font-weight: 200;
+}
+
+.footer2_container h2 {
+  font-size: medium;
+  font-weight: 500;
 }

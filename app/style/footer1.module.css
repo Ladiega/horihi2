@@ -1,4 +1,3 @@
-
 .footer1_container {
   display: flex;
   justify-content: center;
@@ -8,36 +7,51 @@
   color: white;
   padding-bottom: 10;
 }
-.footer1_container a{
+
+.footer1_container a {
   color: white;
   text-decoration: none;
 }
-.img_container{
+
+.img_container {
   position: relative;
   overflow: hidden;
-}
-.sections_container{
-  padding: .5rem 2.5rem;
-  display: flex;  
-  gap: 3rem;
-  position: absolute;  
+  width: 100vw;
+
 }
 
-.section2_container{
-  padding: .5rem;
+.img_container img {
+  width: 100%;
+}
+
+.sections_container {
+  width: 100vw;
+  padding: .5rem 3rem;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
+  gap: 3rem;
+  position: absolute;
+}
+
+.section2_container {
+  padding: .5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
-} 
-.section2_container form{
-  display: flex;  
-  align-items: center;
+}
+
+.section2_container form {
+  display: flex;
+
   gap: .5rem;
   flex-direction: column;
 }
-.section2_container button{
-  width: 4rem;
+
+.footer1_button {
+  margin-top: .5rem;
+  padding: 1rem;
   font-weight: 700;
   background-color: white;
   text-align: center;
@@ -45,15 +59,15 @@
   border-radius: .5rem;
   cursor: pointer;
 }
-  
-.section2_container button:hover{
+
+.section2_container button:hover {
   background-color: rgba(255, 255, 255, 0.719);
 }
 
-.kanjicontainer{
+.kanjicontainer {
   display: flex;
   gap: .5rem;
   padding: 1rem;
   flex-direction: column;
   align-items: center;
-} 
+}

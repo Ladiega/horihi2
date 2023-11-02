@@ -1,3 +1,5 @@
+'use client'
+
 import styles from "../../style/footer1.module.css"
 import Link from "next/link"
 import Image from 'next/image'
@@ -7,14 +9,17 @@ import whitekanji from '../../../public/img/whitekanji.svg'
 import footer1 from '../../../public/img/footer.png'
  
 export default function Footer1() {
- 
+  function handleClick() {
+    
+   console.log('handle click function its working!')
+ }
   return (
     <footer className={styles.footer1_container}>
       <div className={styles.img_container}>
       <Image
         alt="footer img"
         src={footer1}
-        
+        layout="responsive"
       />
       </div>
     <div className={styles.sections_container}>
@@ -51,8 +56,9 @@ export default function Footer1() {
         <form action="">
           <input type="text" placeholder="NOMBRE:" />
           <input type="text" placeholder="EMAIL:" />
-          <button type="submit">ENVIAR</button>
-        </form>
+          
+       </form>
+          <button className={styles.footer1_button} onClick={handleClick}>ENVIAR</button>
         </div>
         </div>
           <div className={styles.kanjicontainer}>
